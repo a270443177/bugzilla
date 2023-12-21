@@ -10,7 +10,7 @@ RUN apt update && \
   libsoap-lite-perl libhtml-scrubber-perl libjson-rpc-perl libdaemon-generic-perl libtheschwartz-perl \ 
   libtest-taint-perl libauthen-radius-perl libfile-slurp-perl libencode-detect-perl libmodule-build-perl \ 
   libnet-ldap-perl libauthen-sasl-perl libfile-mimeinfo-perl libemail-address-perl\ 
-  libhtml-formattext-withlinks-perl libfile-which-perl libgd-dev graphviz python-sphinx rst2pdf
+  libhtml-formattext-withlinks-perl libfile-which-perl libgd-dev graphviz python3-sphinx rst2pdf
 
 WORKDIR /usr/local/apache2
 
