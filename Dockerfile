@@ -1,6 +1,8 @@
 FROM httpd:latest
 MAINTAINER Sithu Thwin <sithu@thwin.net>
 
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 7638D0442B90D010
+
 RUN apt update && \
   apt -yyyqqq install git vim libappconfig-perl libdate-calc-perl libtemplate-perl libmime-tools-perl \
   build-essential libdatetime-timezone-perl libdatetime-perl libemail-sender-perl libemail-mime-perl \ 
