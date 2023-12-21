@@ -47,7 +47,7 @@ $use_suexec = 0;
 # can be obtained by listing Bugzilla/DB directory - every module corresponds
 # to one supported database and the name of the module (before ".pm")
 # corresponds to a valid value for this variable.
-$db_driver = 'mysql';
+$db_driver = 'Sqlite';
 
 # The DNS name or IP address of the host that the database server runs on.
 $db_host = 'mysql';
